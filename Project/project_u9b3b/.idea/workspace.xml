@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Project-Starter:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02d134bc-1450-45eb-80cc-83a62439b9c1" name="Default Changelist" comment="Phase 4: Task 3" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="UML Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iQxlj2WYgzz1CTnVPlAmYiT3tm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Lectures/04-Design/D06/ObservableLecLabStarter" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ui.Menus" />
+      <recent name="model" />
+      <recent name="model.sneakers" />
+      <recent name="model.tests" />
+      <recent name="model.marketplace" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\domoj\OneDrive\Documents\UBC\2020 Winter\CPSC 210\Project\project_u9b3b\lib" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="ui.graphics" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ui.graphics" />
+      <recent name="model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\domoj\OneDrive\Documents\UBC\2020 Winter\CPSC 210\Project\project_u9b3b\data\assets" />
+      <recent name="C:\Users\domoj\OneDrive\Documents\UBC\2020 Winter\CPSC 210\Project\project_u9b3b\src\main\images" />
+      <recent name="C:\Users\domoj\OneDrive\Documents\UBC\2020 Winter\CPSC 210\Project\project_u9b3b\data" />
+      <recent name="C:\Users\domoj\OneDrive\Documents\UBC\2020 Winter\CPSC 210\Project\project_u9b3b\src\main\model\sneakers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="LabelChanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.graphics.LabelChanger" />
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.graphics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonReaderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Starter" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="persistence" />
+      <option name="MAIN_CLASS_NAME" value="persistence.JsonReaderTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SneakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Starter" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.sneakers" />
+      <option name="MAIN_CLASS_NAME" value="model.sneakers.SneakerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tests" type="JUnit" factoryName="JUnit">
+      <module name="Project-Starter" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.LabelChanger" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.tests" />
+      <item itemvalue="JUnit.JsonReaderTest" />
+      <item itemvalue="JUnit.SneakerTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SneakerTest" />
+        <item itemvalue="Application.LabelChanger" />
+        <item itemvalue="JUnit.JsonReaderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02d134bc-1450-45eb-80cc-83a62439b9c1" name="Default Changelist" comment="" />
+      <created>1601853770003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601853770003</updated>
+    </task>
+    <task id="LOCAL-00009" summary="implemented collection selling behaviour&#10;last commit with old nested version of collection menu">
+      <created>1602582112021</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582112021</updated>
+    </task>
+    <task id="LOCAL-00010" summary="implemented ui for CollectionMenu similar to MarketplaceMenu">
+      <created>1602582945997</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602582945997</updated>
+    </task>
+    <task id="LOCAL-00011" summary="clicker behaviour moved to it's own class&#10;removed old scratchwork/obsolete classes">
+      <created>1602587132066</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602587132066</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implemented ui for upgrade menu&#10;cleaned up todos&#10;need to work on tests/specs/citations">
+      <created>1602590573815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602590573815</updated>
+    </task>
+    <task id="LOCAL-00013" summary="moved SneakerGenerator behaviour into Sneaker class&#10;(SneakerGenerator tool only had one method)&#10;worked on specs">
+      <created>1602633193057</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602633193057</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finished all specifications for sneaker package&#10;removed MarketPrice behaviours from SneakerType">
+      <created>1602634496830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602634496830</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added class-level comments for sneaker package">
+      <created>1602634716138</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602634716138</updated>
+    </task>
+    <task id="LOCAL-00016" summary="completed all class-level comments for model">
+      <created>1602636845960</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602636845960</updated>
+    </task>
+    <task id="LOCAL-00017" summary="completed MarketPriceGeneratorTests">
+      <created>1602657046966</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602657046967</updated>
+    </task>
+    <task id="LOCAL-00018" summary="completed SneakerTest">
+      <created>1602662000647</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602662000647</updated>
+    </task>
+    <task id="LOCAL-00019" summary="implemented buy and sell tests for Business">
+      <created>1602669417767</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602669417767</updated>
+    </task>
+    <task id="LOCAL-00020" summary="completed tests for Business">
+      <created>1602670524034</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602670524034</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fixed broken MarketPriceGeneratorTest">
+      <created>1602670882398</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602670882398</updated>
+    </task>
+    <task id="LOCAL-00022" summary="completed tests for Clicker">
+      <created>1602672409228</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602672409228</updated>
+    </task>
+    <task id="LOCAL-00023" summary="updated readme">
+      <created>1602672755924</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602672755924</updated>
+    </task>
+    <task id="LOCAL-00024" summary="completed marketplace tests">
+      <created>1602674922539</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602674922539</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updated and fleshed out specifications">
+      <created>1602676057176</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1602676057176</updated>
+    </task>
+    <task id="LOCAL-00026" summary="completed upgrade menu&#10;completed specifications, added comments for tests">
+      <created>1602721600165</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1602721600165</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added instructions for game">
+      <created>1602722707814</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1602722707814</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fixed checkstyle issues">
+      <created>1602723022402</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1602723022402</updated>
+    </task>
+    <task id="LOCAL-00029" summary="removed some old todo's">
+      <created>1602724233530</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1602724233531</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fixed index bug in selling from collection">
+      <created>1602832494247</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602832494247</updated>
+    </task>
+    <task id="LOCAL-00031" summary="added phase 2 user stories to README.md">
+      <created>1603439566138</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1603439566138</updated>
+    </task>
+    <task id="LOCAL-00032" summary="added json library">
+      <created>1603956474521</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1603956474521</updated>
+    </task>
+    <task id="LOCAL-00033" summary="implemented saving and loading">
+      <created>1604032664370</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1604032664370</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added specifications for all persistence methods&#10;SneakerType.getType method can now throw SneakerTypeNotFoundException">
+      <created>1604041262800</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1604041262800</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added tests for persistence">
+      <created>1604046511482</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1604046511482</updated>
+    </task>
+    <task id="LOCAL-00036" summary="cleaned up documentation and starting menu">
+      <created>1604053551247</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1604053551247</updated>
+    </task>
+    <task id="LOCAL-00037" summary="updated README.md">
+      <created>1604054404467</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1604054404467</updated>
+    </task>
+    <task id="LOCAL-00038" summary="removed scratch notes from README.md">
+      <created>1604054466936</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1604054466936</updated>
+    </task>
+    <task id="LOCAL-00039" summary="started structuring for gui implementation">
+      <created>1604907184397</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1604907184397</updated>
+    </task>
+    <task id="LOCAL-00040" summary="main now opens an empty jframe window">
+      <created>1604907539241</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1604907539241</updated>
+    </task>
+    <task id="LOCAL-00041" summary="worked on SneakerTycoonGUI basic layout">
+      <created>1605356567498</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1605356567498</updated>
+    </task>
+    <task id="LOCAL-00042" summary="SneakerTycoonGUI major layout complete.">
+      <created>1605359620208</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1605359620208</updated>
+    </task>
+    <task id="LOCAL-00043" summary="implemented sneaker image viewer">
+      <created>1605413544941</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1605413544941</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fleshed out info panel, added images for all sneakers">
+      <created>1605515598194</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1605515598194</updated>
+    </task>
+    <task id="LOCAL-00045" summary="refactored TransactionPanel into it's own class">
+      <created>1605517002833</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1605517002834</updated>
+    </task>
+    <task id="LOCAL-00046" summary="selling and buying behaviour implemented">
+      <created>1605524536743</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1605524536743</updated>
+    </task>
+    <task id="LOCAL-00047" summary="main game features working. fixed graphic update issue">
+      <created>1605613591131</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1605613591131</updated>
+    </task>
+    <task id="LOCAL-00048" summary="changed gamePanel to follow BoxLayout, started working on StartPanel">
+      <created>1605618027437</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1605618027437</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added loading behaviour">
+      <created>1605618623944</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1605618623944</updated>
+    </task>
+    <task id="LOCAL-00050" summary="game start behaviour complete">
+      <created>1605686651547</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1605686651547</updated>
+    </task>
+    <task id="LOCAL-00051" summary="refactored SneakerTycoonGUI constructor to be easier to read">
+      <created>1605687510306</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1605687510306</updated>
+    </task>
+    <task id="LOCAL-00052" summary="all required user stories implemented">
+      <created>1605693307111</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1605693307111</updated>
+    </task>
+    <task id="LOCAL-00053" summary="updated Sneaker tests to accomodate changes for GUI">
+      <created>1605786797412</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1605786797412</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fixed 26 line method in marketplace">
+      <created>1605787314859</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1605787314859</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added specifications and cleaned up scrap code">
+      <created>1605827407991</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1605827407991</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Phase 4: Task 2">
+      <created>1606118733562</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1606118733562</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Phase 4: Task 3">
+      <created>1606295759566</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1606295759567</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="implemented saving and loading" />
+    <MESSAGE value="added specifications for all persistence methods&#10;SneakerType.getType method can now throw SneakerTypeNotFoundException" />
+    <MESSAGE value="added tests for persistence" />
+    <MESSAGE value="cleaned up documentation and starting menu" />
+    <MESSAGE value="updated README.md" />
+    <MESSAGE value="removed scratch notes from README.md" />
+    <MESSAGE value="started structuring for gui implementation" />
+    <MESSAGE value="main now opens an empty jframe window" />
+    <MESSAGE value="worked on SneakerTycoonGUI basic layout" />
+    <MESSAGE value="SneakerTycoonGUI major layout complete." />
+    <MESSAGE value="implemented sneaker image viewer" />
+    <MESSAGE value="fleshed out info panel, added images for all sneakers" />
+    <MESSAGE value="refactored TransactionPanel into it's own class" />
+    <MESSAGE value="selling and buying behaviour implemented" />
+    <MESSAGE value="main game features working. fixed graphic update issue" />
+    <MESSAGE value="changed gamePanel to follow BoxLayout, started working on StartPanel" />
+    <MESSAGE value="added loading behaviour" />
+    <MESSAGE value="game start behaviour complete" />
+    <MESSAGE value="refactored SneakerTycoonGUI constructor to be easier to read" />
+    <MESSAGE value="all required user stories implemented" />
+    <MESSAGE value="updated Sneaker tests to accomodate changes for GUI" />
+    <MESSAGE value="fixed 26 line method in marketplace" />
+    <MESSAGE value="added specifications and cleaned up scrap code" />
+    <MESSAGE value="Phase 4: Task 2" />
+    <MESSAGE value="Phase 4: Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 4: Task 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="myMarketplace.listings.get(0)" />
+        <watch expression="jsonReader" />
+        <watch expression="jsonReader.source.hash" />
+        <watch expression="jsonReader.source.value" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Starter$All_in_Project_Starter.ic" NAME="All in Project-Starter Coverage Results" MODIFIED="1602721618932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$tests.ic" NAME="tests Coverage Results" MODIFIED="1605786687434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$Main.ic" NAME="Main Coverage Results" MODIFIED="1605827244239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$ClickerTest.ic" NAME="ClickerTest Coverage Results" MODIFIED="1602673611956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$BusinessTest_testRandomizeCollectionPrices.ic" NAME="BusinessTest.testRandomizeCollectionPrices Coverage Results" MODIFIED="1602669896140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$MarketPriceGeneratorTests_testGeneratePrice.ic" NAME="MarketPriceGeneratorTests.testGeneratePrice Coverage Results" MODIFIED="1602656915515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$BusinessTest.ic" NAME="BusinessTest Coverage Results" MODIFIED="1602670554626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$MarketplaceTest.ic" NAME="MarketplaceTest Coverage Results" MODIFIED="1602673994998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$SneakerTest.ic" NAME="SneakerTest Coverage Results" MODIFIED="1605786381861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+  </component>
+</project>

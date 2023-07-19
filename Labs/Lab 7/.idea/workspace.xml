@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="11aa3ad1-126c-469b-9565-9188b9fdb279" name="Default Changelist" comment="fixed the character for multiplication strings" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jYr5VGbJkVgnd2ElxUm41f13vF" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RunManager" selected="JUnit.All in lab7_u9b3b">
+    <configuration name="QuizRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.QuizRunner" />
+      <module name="lab7_u9b3b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in lab7_u9b3b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab7_u9b3b" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArithmeticQuestionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab7_u9b3b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.question.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.question" />
+      <option name="MAIN_CLASS_NAME" value="model.question.ArithmeticQuestionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitedTriesQuizTest.testUsedAllAttempts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab7_u9b3b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.quiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.quiz" />
+      <option name="MAIN_CLASS_NAME" value="model.quiz.LimitedTriesQuizTest" />
+      <option name="METHOD_NAME" value="testUsedAllAttempts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LimitedTriesQuizTest.testUsedAllAttemptsQ1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab7_u9b3b" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.quiz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model.quiz" />
+      <option name="MAIN_CLASS_NAME" value="model.quiz.LimitedTriesQuizTest" />
+      <option name="METHOD_NAME" value="testUsedAllAttemptsQ1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="JUnit" factoryName="JUnit">
+      <module name="lab7_u9b3b" />
+      <useClassPathOnly />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="PARAMETERS" value="" />
+      <dir value="$PROJECT_DIR$/src/main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.QuizRunner" />
+      <item itemvalue="JUnit.All in lab7_u9b3b" />
+      <item itemvalue="JUnit.ArithmeticQuestionTest" />
+      <item itemvalue="JUnit.LimitedTriesQuizTest.testUsedAllAttemptsQ1" />
+      <item itemvalue="JUnit.LimitedTriesQuizTest.testUsedAllAttempts" />
+      <item itemvalue="JUnit.main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in lab7_u9b3b" />
+        <item itemvalue="Application.QuizRunner" />
+        <item itemvalue="JUnit.ArithmeticQuestionTest" />
+        <item itemvalue="JUnit.LimitedTriesQuizTest.testUsedAllAttemptsQ1" />
+        <item itemvalue="JUnit.LimitedTriesQuizTest.testUsedAllAttempts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11aa3ad1-126c-469b-9565-9188b9fdb279" name="Default Changelist" comment="" />
+      <created>1603991683921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603991683921</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Implemented up to task 3. needs tests">
+      <created>1604997620017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604997620017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fixed checkstyle issues">
+      <created>1604997981932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604997981932</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixed more checkstyle issues">
+      <created>1604998220234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604998220234</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fixed method length in QuizBuilder">
+      <created>1604998335988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604998335988</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed some checkstyle issues in QuizBuilder">
+      <created>1604998434290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604998434290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed checkstyle error in UnlimitedTriesQuizTest">
+      <created>1604998607302</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604998607302</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added specification to processQuestion in ArithmeticQuestion">
+      <created>1604998988693</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604998988693</updated>
+    </task>
+    <task id="LOCAL-00008" summary="shortened methods in UnlimitedTriesQuizTest">
+      <created>1604999632971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604999632971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="deleted unintentionally added usages of final from reformatting">
+      <created>1605000772590</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605000772590</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed checkstyle rule deletion&#10;fixed other checkstyle errors and test error">
+      <created>1605001245568</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605001245568</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implemented LimitedTriesQuiz and tests">
+      <created>1605005817666</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605005817666</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixed ArithmeticQuestion and checker exception behaviours">
+      <created>1605006716776</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605006716776</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added a whitespace to ArithmeticQuestion question string">
+      <created>1605007073448</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605007073448</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fixed the character for multiplication strings">
+      <created>1605007864167</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605007864167</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implemented up to task 3. needs tests" />
+    <MESSAGE value="fixed checkstyle issues" />
+    <MESSAGE value="fixed more checkstyle issues" />
+    <MESSAGE value="fixed method length in QuizBuilder" />
+    <MESSAGE value="fixed some checkstyle issues in QuizBuilder" />
+    <MESSAGE value="fixed checkstyle error in UnlimitedTriesQuizTest" />
+    <MESSAGE value="checkstyle" />
+    <MESSAGE value="added specification to processQuestion in ArithmeticQuestion" />
+    <MESSAGE value="shortened methods in UnlimitedTriesQuizTest" />
+    <MESSAGE value="deleted unintentionally added usages of final from reformatting" />
+    <MESSAGE value="fixed checkstyle rule deletion&#10;fixed other checkstyle errors and test error" />
+    <MESSAGE value="implemented LimitedTriesQuiz and tests" />
+    <MESSAGE value="fixed ArithmeticQuestion and checker exception behaviours" />
+    <MESSAGE value="added a whitespace to ArithmeticQuestion question string" />
+    <MESSAGE value="fixed the character for multiplication strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed the character for multiplication strings" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605005661301">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605005661301" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1605004150463">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1605004150463" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1604996760503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604996760503" />
+    <state x="498" y="200" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605005656802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="200" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1605005656802" />
+    <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605005628213">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="214" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1605005628213" />
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1604601279658">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1604601279658" />
+    <state x="342" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605001144125">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="342" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1605001144125" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605005645998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605005645998" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1605008725999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605008725999" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1605008725999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605008725999" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1605008725998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605008725998" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1605008725999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605008725999" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1605008726000">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605008726000" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1605008725999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605008725999" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1605008725999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605008725999" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1605008725999">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605008725999" />
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1604999319377">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1604999319377" />
+    <state x="403" y="115" key="RollbackChangesDialog" timestamp="1604997967556">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="403" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604997967556" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1605001022202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605001022202" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605007867486">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605007867486" />
+    <state x="935" y="242" key="extract.method.dialog" timestamp="1605005206976">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="935" y="242" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1605005206976" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1605000723227">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1605000723227" />
+    <state x="469" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1605002122793">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="469" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1605002122793" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/lab7_u9b3b$main.ic" NAME="main Coverage Results" MODIFIED="1605005663881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>model.*</FILTER>
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/lab7_u9b3b$All_in_lab7_u9b3b.ic" NAME="All in lab7_u9b3b Coverage Results" MODIFIED="1605006687488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

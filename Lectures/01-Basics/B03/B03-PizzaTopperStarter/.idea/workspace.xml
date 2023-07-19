@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdb996fd-5fe7-471d-a3a6-1466b807fd07" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/PizzaTopper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PizzaTopper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hW9OTBtK4QBQ4URXlZQrmVpxwr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="PizzaTopper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdb996fd-5fe7-471d-a3a6-1466b807fd07" name="Default Changelist" comment="" />
+      <created>1600115949101</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600115949101</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1364" height="239" key="GridCell.Tab.0.bottom" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.0.center" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.0.left" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.0.right" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.1.bottom" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.1.center" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.1.left" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+    <state width="1364" height="239" key="GridCell.Tab.1.right" timestamp="1600130538394">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1364" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1600130538394" />
+  </component>
+</project>

@@ -1,0 +1,60 @@
+********* unfinished implementation for multipage collection viewer ************
+
+
+
+package ui.menus;
+
+import model.Business;
+import model.sneakers.Sneaker;
+import ui.AbstractMenu;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollectionViewer extends AbstractMenu {
+
+    // create a temp business so that we can remove items without modifying actual collection
+    Business myBusiness;
+
+    public CollectionViewer(Business business) {
+        myBusiness = business;
+    }
+
+    // TODO: implement 5 per page printing to improve selling from your collection once it gets bigger
+    @Override
+    protected void displayMenu() {
+        myBusiness.getCollectionInfo(ITEMS_PER_PAGE);
+
+        // temp list for sneakers per page
+        List<Sneaker> pageListings = new ArrayList<>();
+
+        // ensures that the printer only prints the remainder of collection if less than ITEMS_PER_PAGE
+        int numToPrint = Math.min(myBusiness.getCollection().size(), ITEMS_PER_PAGE);
+
+        boolean keepGoing = true;
+
+        // adds up to 5 listings to pageListings
+        // TODO: instead of removing from the start, update the starting index of the for loop
+        for (int i = 1; i <= numToPrint; i++) {
+            pageListings.add(myBusiness.getCollection().get(0));
+            myBusiness.getCollection().remove(0);
+        }
+
+        System.out.println("Enter the number corresponding to the sneaker you wish to sell, "
+                + "or enter \"q\" to go back to the main menu.");
+        System.out.println("Enter \"z\" to go to the next page of your collection.");
+
+        printListings(pageListings);
+    }
+
+    @Override
+    protected void displayMenu() {
+
+    }
+
+    @Override
+    protected void processMenuCommand(String command) {
+
+    }
+
+}

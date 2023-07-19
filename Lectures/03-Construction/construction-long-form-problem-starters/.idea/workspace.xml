@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="138e5134-9029-4a65-bc86-438397854583" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/model/Chef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/FOHEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/BeansAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NegativeInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NoCupsRemainingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/NotEnoughBeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/StaleCoffeeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/TooManyBeansException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/exceptions/WaterException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/Busy'sDiner1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/Busy'sDiner1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/model/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/ui/Diner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner1/src/ui/Diner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/Busy'sDiner2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/Busy'sDiner2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Chef.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Chef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/model/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/ui/Diner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner2/src/ui/Diner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/Busy'sDiner3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/Busy'sDiner3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Host.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Host.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/model/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/ui/Diner.java" beforeDir="false" afterPath="$PROJECT_DIR$/Busy'sDiner/Busy'sDiner3/src/ui/Diner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMaker/CoffeeMaker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMaker/CoffeeMaker.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMaker/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMaker/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/CoffeeMaker/src/model/CoffeeMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/BingoStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/BingoStarter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/PlayerCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/PlayerCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/observer_pattern/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/model/observer_pattern/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/ui/BingoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/BingoStarter/src/ui/BingoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/MonsterMazeStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/MonsterMazeStarter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/MonsterMazeStarter/src/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/SillyWordGameStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/SillyWordGameStarter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/model/SillyWordGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/model/SillyWordGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/ui/SillyWordGameUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleArcade/SillyWordGameStarter/src/ui/SillyWordGameUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitLifeGymChainOOD/FitLifeGymChainOOD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FitLifeGymChainOOD/FitLifeGymChainOOD.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iwzvlHhjfmmzVnb3STEpjItIg0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../construction-long-form-problem-solutions" />
+  </component>
+  <component name="RunManager" selected="Application.SillyWordGameUI">
+    <configuration name="BingoUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.BingoUI" />
+      <module name="BingoStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Diner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Diner" />
+      <module name="Busy'sDiner2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Diner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Diner" />
+      <module name="Busy'sDiner3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonsterMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.MonsterMaze" />
+      <module name="MonsterMazeStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SillyWordGameUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.SillyWordGameUI" />
+      <module name="SillyWordGameStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SillyWordGameUI" />
+        <item itemvalue="Application.BingoUI" />
+        <item itemvalue="Application.MonsterMaze" />
+        <item itemvalue="Application.Diner (2)" />
+        <item itemvalue="Application.Diner (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="138e5134-9029-4a65-bc86-438397854583" name="Default Changelist" comment="" />
+      <created>1602833674976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602833674976</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/FitLifeGymChainOOD/src/model/gym/Gym.java</url>
+          <line>59</line>
+          <properties class="model.gym.Gym" method="guideMemberThroughWorkout">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

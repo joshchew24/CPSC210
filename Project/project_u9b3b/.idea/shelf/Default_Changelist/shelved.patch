@@ -1,0 +1,443 @@
+Index: data/game.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- data/game.json	(date 1603959406943)
++++ data/game.json	(date 1603959406943)
+@@ -0,0 +1,9 @@
++{
++    "upgrade cost": 100,
++    "business": {
++        "money": 12,
++        "name": "asdf",
++        "collection": []
++    },
++    "click gain": 1
++}
+\ No newline at end of file
+Index: src/main/model/Business.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\nimport model.sneakers.Sneaker;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\n/*\r\n * Represents the business owned by the player\r\n */\r\n\r\npublic class Business {\r\n\r\n    private final String businessName;\r\n    private final List<Sneaker> collection;\r\n\r\n    private float balance;\r\n\r\n    private static final int MAX_COLLECTION_SIZE = 10;\r\n\r\n    public Business(String name) {\r\n        businessName = name;\r\n        balance = 0;\r\n        collection = new ArrayList<>();\r\n    }\r\n\r\n\r\n    // transaction methods\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: if this has enough money and room in the collection, pays for sneaker and adds it to collection,\r\n    //          then returns true. Otherwise returns false\r\n    public boolean buy(Sneaker s) {\r\n        if (collection.size() < MAX_COLLECTION_SIZE) {\r\n            if (balance >= s.getMarketPrice()) {\r\n                s.setPurchasedPrice(s.getMarketPrice());\r\n                collection.add(s);\r\n                balance -= s.getMarketPrice();\r\n                return true;\r\n            } else {\r\n                return false;\r\n            }\r\n        } else {\r\n            return false;\r\n        }\r\n\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: if i - 1 is within collection index, take the sneaker at that index and sell it. selling it will add\r\n    //          it's market value to your balance and removes it from your collection. Otherwise returns null.\r\n    public Sneaker sell(int i) {\r\n        if (i <= collection.size()) {\r\n            Sneaker s = collection.get(i - 1);\r\n            balance += s.getMarketPrice();\r\n            collection.remove(s);\r\n            return s;\r\n        } else {\r\n            return null;\r\n        }\r\n    }\r\n\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: randomizes market prices for all sneakers in collection\r\n    public void randomizeCollectionMarketPrices() {\r\n        for (Sneaker s : collection) {\r\n            s.randomizeMarketPrice();\r\n        }\r\n    }\r\n\r\n    // EFFECTS: returns a list of sneaker information in string form for the entire collection\r\n    public List<String> getCollectionInfo() {\r\n        List<String> collectionInfo = new ArrayList<>();\r\n        for (Sneaker s : collection) {\r\n            collectionInfo.add(s.getInfo() + \"\\n\");\r\n        }\r\n        return collectionInfo;\r\n    }\r\n\r\n//    // currently unused\r\n//    // return information about i sneakers of collection, in order stored\r\n//    public List<String> getCollectionInfo(int i) {\r\n//        int tracker = collection.size();\r\n//        List<String> collectionInfo = new ArrayList<>();\r\n//        while (!(tracker == collection.size() - i)) {\r\n//            for (Sneaker s : collection) {\r\n//                collectionInfo.add(s.getInfo() + \"\\n\");\r\n//                tracker--;\r\n//            }\r\n//        }\r\n//        return collectionInfo;\r\n//    }\r\n\r\n\r\n    // getters:\r\n    public String getBusinessName() {\r\n        return businessName;\r\n    }\r\n\r\n    public float getBalance() {\r\n        return balance;\r\n    }\r\n\r\n    public List<Sneaker> getCollection() {\r\n        return collection;\r\n    }\r\n\r\n    public static int getMaxCollectionSize() {\r\n        return MAX_COLLECTION_SIZE;\r\n    }\r\n\r\n\r\n    // setters:\r\n    public void setBalance(float balance) {\r\n        this.balance = balance;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/model/Business.java	(revision 97b91a67051526d512ef9e9d4ead7c1c4a82a9a9)
++++ src/main/model/Business.java	(date 1603959000719)
+@@ -1,6 +1,9 @@
+ package model;
+ 
+ import model.sneakers.Sneaker;
++import org.json.JSONArray;
++import org.json.JSONObject;
++import persistence.Writable;
+ 
+ import java.util.ArrayList;
+ import java.util.List;
+@@ -9,7 +12,7 @@
+  * Represents the business owned by the player
+  */
+ 
+-public class Business {
++public class Business implements Writable {
+ 
+     private final String businessName;
+     private final List<Sneaker> collection;
+@@ -116,4 +119,22 @@
+         this.balance = balance;
+     }
+ 
++    @Override
++    public JSONObject toJson() {
++        JSONObject json = new JSONObject();
++        json.put("name", businessName);
++        json.put("money", balance);
++        json.put("collection", collectionToJson());
++        return json;
++    }
++
++    private JSONArray collectionToJson() {
++        JSONArray jsonArray = new JSONArray();
++
++        for (Sneaker s : collection) {
++            jsonArray.put(s.toJson());
++        }
++
++        return jsonArray;
++    }
+ }
+Index: src/main/ui/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ui;\r\n\r\n/*\r\n * Driver class.\r\n */\r\n// TODO: 3rd and 4th user stories?\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        new SneakerTycoonApp();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/ui/Main.java	(revision 97b91a67051526d512ef9e9d4ead7c1c4a82a9a9)
++++ src/main/ui/Main.java	(date 1603957971230)
+@@ -3,7 +3,7 @@
+ /*
+  * Driver class.
+  */
+-// TODO: 3rd and 4th user stories?
++// TODO: 3rd and 4th user stories?asdf
+ public class Main {
+     public static void main(String[] args) {
+         new SneakerTycoonApp();
+Index: src/main/model/sneakers/Sneaker.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model.sneakers;\r\n\r\nimport java.util.EnumSet;\r\nimport java.util.Random;\r\n\r\n/*\r\n * Represents a sneaker.\r\n */\r\n\r\npublic class Sneaker {\r\n\r\n    private final String name;\r\n    private final Rarity rarity;\r\n    private final float retailPrice;\r\n    private SneakerType type;\r\n\r\n    private float purchasedPrice;\r\n    private float marketPrice;\r\n\r\n    MarketPriceGenerator marketPriceGenerator = new MarketPriceGenerator();\r\n\r\n    // EFFECTS: constructs a random sneaker of given rarity, with random market price\r\n    public Sneaker(Rarity rarity) {\r\n        selectOfRarity(rarity);\r\n\r\n        name = type.getLabel();\r\n        this.rarity = type.getRarity();\r\n        retailPrice = type.getRetailPrice();\r\n        marketPrice = marketPriceGenerator.generatePrice(type);\r\n    }\r\n\r\n    // note: currently only used in testing\r\n    // EFFECTS: constructs a sneaker of given type with randomized market price\r\n    public Sneaker(SneakerType type) {\r\n        this.type = type;\r\n        name = type.getLabel();\r\n        rarity = type.getRarity();\r\n        retailPrice = type.getRetailPrice();\r\n        marketPrice = marketPriceGenerator.generatePrice(type);\r\n    }\r\n\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: sets sneaker type to random one of given rarity\r\n    private void selectOfRarity(Rarity rarity) {\r\n        Random rand = new Random();\r\n        EnumSet<SneakerType> raritySet = SneakerType.getAllOfRarity(rarity);\r\n        int upperbound = raritySet.size();\r\n        int choice = rand.nextInt(upperbound);\r\n\r\n        type = SneakerType.get(raritySet, choice);\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: sets a randomized marketPrice for the sneaker.\r\n    public void randomizeMarketPrice() {\r\n        marketPrice = marketPriceGenerator.generatePrice(type);\r\n    }\r\n\r\n    // TODO: if purchased price is 0, also return price premium over retail\r\n    // EFFECTS: checks if sneaker has been purchased, then returns information about this sneaker in string format.\r\n    //          purchased sneakers also show the price they were bought at.\r\n    public String getInfo() {\r\n        if (purchasedPrice == 0.0) {\r\n            return (\"Name: \" + name + \"\\n\"\r\n                    + \"Rarity: \" + rarity + \"\\n\"\r\n                    + \"Retail Price: $\" + retailPrice + \"\\n\"\r\n                    + \"Market Price: $\" + marketPrice + \"\\n\");\r\n        } else {\r\n            return (\"Name: \" + name + \"\\n\"\r\n                    + \"Rarity: \" + rarity + \"\\n\"\r\n                    + \"Retail Price: $\" + retailPrice + \"\\n\"\r\n                    + \"Market Price: $\" + marketPrice + \"\\n\"\r\n                    + \"Purchased for: $\" + purchasedPrice + \"\\n\");\r\n        }\r\n    }\r\n\r\n\r\n    // getters:\r\n    public String getName() {\r\n        return name;\r\n    }\r\n\r\n    public Rarity getRarity() {\r\n        return rarity;\r\n    }\r\n\r\n    public float getRetailPrice() {\r\n        return retailPrice;\r\n    }\r\n\r\n    public SneakerType getType() {\r\n        return type;\r\n    }\r\n\r\n    public float getPurchasedPrice() {\r\n        return purchasedPrice;\r\n    }\r\n\r\n    public float getMarketPrice() {\r\n        return marketPrice;\r\n    }\r\n\r\n\r\n    // setters:\r\n    public void setPurchasedPrice(float purchasedPrice) {\r\n        this.purchasedPrice = purchasedPrice;\r\n    }\r\n\r\n    public void setMarketPrice(float marketPrice) {\r\n        this.marketPrice = marketPrice;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/model/sneakers/Sneaker.java	(revision 97b91a67051526d512ef9e9d4ead7c1c4a82a9a9)
++++ src/main/model/sneakers/Sneaker.java	(date 1603959351094)
+@@ -1,5 +1,8 @@
+ package model.sneakers;
+ 
++import org.json.JSONObject;
++import persistence.Writable;
++
+ import java.util.EnumSet;
+ import java.util.Random;
+ 
+@@ -7,7 +10,7 @@
+  * Represents a sneaker.
+  */
+ 
+-public class Sneaker {
++public class Sneaker implements Writable {
+ 
+     private final String name;
+     private final Rarity rarity;
+@@ -111,4 +114,17 @@
+         this.marketPrice = marketPrice;
+     }
+ 
++
++    // TODO:
++    // aosidf
++    public JSONObject toJson() {
++        JSONObject json = new JSONObject();
++        json.put("name", name);
++        json.put("rarity", rarity);
++        json.put("retail", retailPrice);
++        json.put("type", type);
++        json.put("purchased", purchasedPrice);
++        json.put("market", marketPrice);
++        return json;
++    }
+ }
+Index: .idea/libraries/json_20200518.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/json_20200518.xml	(date 1603956454629)
++++ .idea/libraries/json_20200518.xml	(date 1603956454629)
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="json-20200518">
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/lib/json-20200518.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: src/main/persistence/Writable.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/persistence/Writable.java	(date 1603956536021)
++++ src/main/persistence/Writable.java	(date 1603956536021)
+@@ -0,0 +1,8 @@
++package persistence;
++
++import org.json.JSONObject;
++
++public interface Writable {
++    // EFFECTS: returns this as JSON object
++    JSONObject toJson();
++}
+Index: src/main/model/Clicker.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\n/*\r\n * Tool for handling clicking behaviour and upgrades\r\n */\r\n\r\npublic class Clicker {\r\n\r\n    private float gainedPerClick;\r\n    private float upgradeCost;\r\n\r\n    private final Business myBusiness;\r\n\r\n    private static final float UPGRADE_COST_INCREMENT = 100;\r\n    private static final float UPGRADE_INCREMENT = 1;\r\n\r\n    // EFFECTS: constructs a tool that allows you to click to earn money\r\n    public Clicker(Business business) {\r\n        gainedPerClick = 1;\r\n        upgradeCost = 100;\r\n        myBusiness = business;\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: increases your balance by  gainedPerClick\r\n    public void click() {\r\n        myBusiness.setBalance(myBusiness.getBalance() + gainedPerClick);\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: if you can afford upgradeCost, increase gainedPerClick by UPGRADE_INCREMENT, pay upgradeCost,\r\n    //          upgradeCost gets more expensive by UPGRADE_COST_INCREMENT, and return true. otherwise return false.\r\n    public boolean upgradeClick() {\r\n        if (myBusiness.getBalance() >= upgradeCost) {\r\n            setGainedPerClick(gainedPerClick + UPGRADE_INCREMENT);\r\n            myBusiness.setBalance(myBusiness.getBalance() - upgradeCost);\r\n            setUpgradeCost(upgradeCost + UPGRADE_COST_INCREMENT);\r\n            return true;\r\n        } else {\r\n            return false;\r\n        }\r\n    }\r\n\r\n\r\n    // getters:\r\n\r\n    public float getUpgradeClickCost() {\r\n        return upgradeCost;\r\n    }\r\n\r\n    public float getGainedPerClick() {\r\n        return gainedPerClick;\r\n    }\r\n\r\n    public Business getMyBusiness() {\r\n        return myBusiness;\r\n    }\r\n\r\n\r\n    // setters:\r\n\r\n    public void setGainedPerClick(float gainedPerClick) {\r\n        this.gainedPerClick = gainedPerClick;\r\n    }\r\n\r\n    public void setUpgradeCost(float upgradeClickCost) {\r\n        this.upgradeCost = upgradeClickCost;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/model/Clicker.java	(revision 97b91a67051526d512ef9e9d4ead7c1c4a82a9a9)
++++ src/main/model/Clicker.java	(date 1603958838174)
+@@ -4,7 +4,10 @@
+  * Tool for handling clicking behaviour and upgrades
+  */
+ 
+-public class Clicker {
++import org.json.JSONObject;
++import persistence.Writable;
++
++public class Clicker implements Writable {
+ 
+     private float gainedPerClick;
+     private float upgradeCost;
+@@ -66,4 +69,17 @@
+     public void setUpgradeCost(float upgradeClickCost) {
+         this.upgradeCost = upgradeClickCost;
+     }
++
++
++    // TODO:
++    // PERSISTENCE METHODS
++
++    @Override
++    public JSONObject toJson() {
++        JSONObject json = new JSONObject();
++        json.put("business", myBusiness.toJson());
++        json.put("click gain", gainedPerClick);
++        json.put("upgrade cost", upgradeCost);
++        return json;
++    }
+ }
+Index: src/main/ui/SneakerTycoonApp.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ui;\r\n\r\nimport model.Business;\r\nimport model.Clicker;\r\nimport ui.menus.CollectionMenu;\r\nimport ui.menus.DeveloperMenu;\r\nimport ui.menus.MarketplaceMenu;\r\nimport ui.menus.UpgradeMenu;\r\n\r\nimport java.util.Scanner;\r\n\r\n/*\r\n * Represents the main menu in which the Sneaker Tycoon game is played.\r\n */\r\n\r\npublic class SneakerTycoonApp extends Menu {\r\n\r\n    private Business myBusiness;\r\n    private Clicker clicker;\r\n\r\n    public SneakerTycoonApp() {\r\n        runMenu();\r\n    }\r\n\r\n    @Override\r\n    protected void init() {\r\n        input = new Scanner(System.in);\r\n        System.out.println(\"What is the name of your business?\");\r\n        myBusiness = new Business(input.nextLine());\r\n        clicker = new Clicker(myBusiness);\r\n        System.out.println(\"If this is your first time playing, enter \\\"h\\\" for some help!\");\r\n    }\r\n\r\n    @Override\r\n    // EFFECTS: displays the main menu of options\r\n    protected void displayMenu() {\r\n        System.out.println(\"Welcome to \" + myBusiness.getBusinessName() + \", your sneaker-reselling business!\");\r\n        System.out.println(\"Select from: \");\r\n        System.out.println(\"Click (f)\");\r\n        System.out.println(\"Upgrade (u)\");\r\n        System.out.println(\"My Collection (c)\");\r\n        System.out.println(\"Marketplace (m)\");\r\n        System.out.println(\"Developer Menu (?)\");\r\n        System.out.println(\"Help (h)\");\r\n        System.out.println(\"Quit (q)\");\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: processes user command if one of (f, u, c, m), else sends command to secondary method\r\n    @Override\r\n    protected void processMenuCommand(String command) {\r\n        switch (command) {\r\n            case \"f\":\r\n                click();\r\n                break;\r\n            case \"u\":\r\n                UpgradeMenu upgradeMenu = new UpgradeMenu(clicker);\r\n                upgradeMenu.runMenu();\r\n                displayMenu();\r\n                break;\r\n            case \"c\":\r\n                CollectionMenu collectionMenu = new CollectionMenu(myBusiness);\r\n                collectionMenu.runMenu();\r\n                displayMenu();\r\n                break;\r\n            case \"m\":\r\n                MarketplaceMenu marketplaceMenu = new MarketplaceMenu(myBusiness);\r\n                marketplaceMenu.runMenu();\r\n                displayMenu();\r\n                break;\r\n            default:\r\n                processMenuCommandSecondary(command);\r\n                break;\r\n        }\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: processes user command\r\n    protected void processMenuCommandSecondary(String command) {\r\n        switch (command) {\r\n            case \"?\":\r\n                DeveloperMenu developerMenu = new DeveloperMenu(myBusiness);\r\n                developerMenu.runMenu();\r\n                displayMenu();\r\n                break;\r\n            case \"d\":\r\n                displayMenu();\r\n                break;\r\n            case \"h\":\r\n                printInstructions();\r\n                break;\r\n            default:\r\n                printError();\r\n                break;\r\n        }\r\n    }\r\n\r\n    // MODIFIES: this\r\n    // EFFECTS: clicks one time, prints result information.\r\n    private void click() {\r\n        clicker.click();\r\n        System.out.print(\"You earned $\" + clicker.getGainedPerClick() + \". \");\r\n        System.out.print(\"Your total balance is $\" + myBusiness.getBalance() + \". \");\r\n        System.out.println(\"Enter \\\"d\\\" to display the main menu.\");\r\n    }\r\n\r\n    // EFFECTS: prints out game instructions\r\n    private void printInstructions() {\r\n        System.out.println(\"Earn money by clicking. (f)\");\r\n        System.out.println(\"Spend your money to upgrade your clicking power. (u)\");\r\n        System.out.println(\"View your collection and sell sneakers for a profit. (c)\");\r\n        System.out.println(\"Shop in a marketplace. Look for good deals and rare shoes! (m)\");\r\n        System.out.println(\"Test the game without actually spending time playing it (?)\");\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/ui/SneakerTycoonApp.java	(revision 97b91a67051526d512ef9e9d4ead7c1c4a82a9a9)
++++ src/main/ui/SneakerTycoonApp.java	(date 1603958717362)
+@@ -2,11 +2,15 @@
+ 
+ import model.Business;
+ import model.Clicker;
++import persistence.JsonReader;
++import persistence.JsonWriter;
+ import ui.menus.CollectionMenu;
+ import ui.menus.DeveloperMenu;
+ import ui.menus.MarketplaceMenu;
+ import ui.menus.UpgradeMenu;
+ 
++import java.io.FileNotFoundException;
++import java.io.IOException;
+ import java.util.Scanner;
+ 
+ /*
+@@ -15,6 +19,8 @@
+ 
+ public class SneakerTycoonApp extends Menu {
+ 
++    private static final String JSON_STORE = "./data/game.json";
++
+     private Business myBusiness;
+     private Clicker clicker;
+ 
+@@ -25,10 +31,16 @@
+     @Override
+     protected void init() {
+         input = new Scanner(System.in);
+-        System.out.println("What is the name of your business?");
+-        myBusiness = new Business(input.nextLine());
+-        clicker = new Clicker(myBusiness);
+-        System.out.println("If this is your first time playing, enter \"h\" for some help!");
++        System.out.println("Do you want to load a file or start a new game?");
++        System.out.println("Type \"load\" to load your saved game, or anything else to start a new game.");
++        if (input.nextLine().equals("load")) {
++            loadGame();
++        } else {
++            System.out.println("What is the name of your business?");
++            myBusiness = new Business(input.nextLine());
++            clicker = new Clicker(myBusiness);
++            System.out.println("If this is your first time playing, enter \"h\" for some help!");
++        }
+     }
+ 
+     @Override
+@@ -36,13 +48,14 @@
+     protected void displayMenu() {
+         System.out.println("Welcome to " + myBusiness.getBusinessName() + ", your sneaker-reselling business!");
+         System.out.println("Select from: ");
+-        System.out.println("Click (f)");
+-        System.out.println("Upgrade (u)");
+-        System.out.println("My Collection (c)");
+-        System.out.println("Marketplace (m)");
+-        System.out.println("Developer Menu (?)");
+-        System.out.println("Help (h)");
+-        System.out.println("Quit (q)");
++        System.out.println("\tClick (f)");
++        System.out.println("\tUpgrade (u)");
++        System.out.println("\tMy Collection (c)");
++        System.out.println("\tMarketplace (m)");
++        System.out.println("\tDeveloper Menu (?)");
++        System.out.println("\tHelp (h)");
++        System.out.println("\tSave (s)");
++        System.out.println("\tQuit (q)");
+     }
+ 
+     // MODIFIES: this
+@@ -89,6 +102,9 @@
+             case "h":
+                 printInstructions();
+                 break;
++            case "s":
++                saveGame();
++                break;
+             default:
+                 printError();
+                 break;
+@@ -112,4 +128,31 @@
+         System.out.println("Shop in a marketplace. Look for good deals and rare shoes! (m)");
+         System.out.println("Test the game without actually spending time playing it (?)");
+     }
++
++    // TODO:
++    // EFFECTS: saves geame
++    private void saveGame() {
++        JsonWriter jsonWriter = new JsonWriter(JSON_STORE);
++        try {
++            jsonWriter.open();
++            jsonWriter.write(clicker);
++            jsonWriter.close();
++            System.out.println("Saved game state to " + JSON_STORE);
++        } catch (FileNotFoundException e) {
++            System.out.println("Unable to write to file: " + JSON_STORE);
++        }
++
++    }
++
++    // EFFECTS: displays menu of
++    private void loadGame() {
++        JsonReader jsonReader = new JsonReader(JSON_STORE);
++        try {
++            clicker = jsonReader.read();
++            myBusiness = clicker.getMyBusiness();
++            System.out.println("Loaded " + myBusiness.getBusinessName() + " from " + JSON_STORE);
++        } catch (IOException e) {
++            e.printStackTrace();
++        }
++    }
+ }
+Index: src/main/persistence/JsonWriter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/persistence/JsonWriter.java	(date 1603957218709)
++++ src/main/persistence/JsonWriter.java	(date 1603957218709)
+@@ -0,0 +1,44 @@
++package persistence;
++
++import model.Clicker;
++import org.json.JSONObject;
++
++import java.io.*;
++
++// Represents a writer that writes JSON representation of workroom to file
++public class JsonWriter {
++    private static final int TAB = 4;
++    private PrintWriter writer;
++    private String destination;
++
++    // EFFECTS: constructs writer to write to destination file
++    public JsonWriter(String destination) {
++        this.destination = destination;
++    }
++
++    // MODIFIES: this
++    // EFFECTS: opens writer; throws FileNotFoundException if destination file cannot
++    // be opened for writing
++    public void open() throws FileNotFoundException {
++        writer = new PrintWriter(new File(destination));
++    }
++
++    // MODIFIES: this
++    // EFFECTS: writes JSON representation of workroom to file
++    public void write(Clicker c) {
++        JSONObject json = c.toJson();
++        saveToFile(json.toString(TAB));
++    }
++
++    // MODIFIES: this
++    // EFFECTS: closes writer
++    public void close() {
++        writer.close();
++    }
++
++    // MODIFIES: this
++    // EFFECTS: writes string to file
++    private void saveToFile(String json) {
++        writer.print(json);
++    }
++}
+Index: src/main/persistence/JsonReader.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/persistence/JsonReader.java	(date 1603959597068)
++++ src/main/persistence/JsonReader.java	(date 1603959597068)
+@@ -0,0 +1,59 @@
++package persistence;
++
++import model.Business;
++import model.Clicker;
++
++import java.io.IOException;
++import java.nio.charset.StandardCharsets;
++import java.nio.file.Files;
++import java.nio.file.Paths;
++import java.util.stream.Stream;
++
++import org.json.*;
++
++// Represents a reader that reads workroom from JSON data stored in file
++public class JsonReader {
++    private String source;
++
++    // EFFECTS: constructs reader to read from source file
++    public JsonReader(String source) {
++        this.source = source;
++    }
++
++    // EFFECTS: reads workroom from file and returns it;
++    // throws IOException if an error occurs reading data from file
++    public Clicker read() throws IOException {
++        String jsonData = readFile(source);
++        JSONObject jsonObject = new JSONObject(jsonData);
++        return parseClicker(jsonObject);
++    }
++
++    // EFFECTS: reads source file as string and returns it
++    private String readFile(String source) throws IOException {
++        StringBuilder contentBuilder = new StringBuilder();
++
++        try (Stream<String> stream = Files.lines( Paths.get(source), StandardCharsets.UTF_8)) {
++            stream.forEach(s -> contentBuilder.append(s));
++        }
++
++        return contentBuilder.toString();
++    }
++
++    // EFFECTS: parses Clicker from JSON object and returns it
++    private Clicker parseClicker(JSONObject jsonObject) {
++        parseBusiness(jsonObject);
++        JSONObject jsonbusiness = (JSONObject) jsonObject.get("business");
++        Business business = new Business((String) jsonbusiness.get("name"));
++        float gainedPerClick = jsonObject.getFloat("click gain");
++        float upgradeCost = jsonObject.getFloat("upgrade cost");
++        Clicker c = new Clicker(business);
++        c.setGainedPerClick(gainedPerClick);
++        c.setUpgradeCost(upgradeCost);
++        return c;
++    }
++
++    private void parseBusiness(JSONObject jsonObject) {
++        Object jsonbusiness = jsonObject.get("business");
++
++    }
++}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2bd9fd93-ca40-4550-9303-c77f55962c55" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1jXf7AfmAAAWMtvpwK2dIZmf4Ke" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../04-Design/D08/D78-EstatesAndHouses-Starter" />
+  </component>
+  <component name="RunManager" selected="Application.CourseRecommenderApp">
+    <configuration name="CourseRecommenderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cpsc210.courseRecommender.CourseRecommenderApp" />
+      <module name="M06-CourseRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cpsc210.courseRecommender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseRecommenderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="M06-CourseRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cpsc210.courseRecommender.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cpsc210.courseRecommender.tests" />
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cpsc210.courseRecommender.tests.CourseRecommenderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseRecommenderTest.testCourseWithSingleRecommendationAlternate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="M06-CourseRecommender" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.ubc.cpsc210.courseRecommender.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ca.ubc.cpsc210.courseRecommender.tests" />
+      <option name="MAIN_CLASS_NAME" value="ca.ubc.cpsc210.courseRecommender.tests.CourseRecommenderTest" />
+      <option name="METHOD_NAME" value="testCourseWithSingleRecommendationAlternate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CourseRecommenderApp" />
+        <item itemvalue="JUnit.CourseRecommenderTest" />
+        <item itemvalue="JUnit.CourseRecommenderTest.testCourseWithSingleRecommendationAlternate" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2bd9fd93-ca40-4550-9303-c77f55962c55" name="Default Changelist" comment="" />
+      <created>1603955186342</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603955186342</updated>
+    </task>
+    <servers />
+  </component>
+</project>

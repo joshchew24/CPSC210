@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f0e02a4-c107-44a2-8580-6d0b51242ea6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/model/Stall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/tests/StallTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/D3-MessyZooStarter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/D3-MessyZooStarter.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/CPSC210Checkstyle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/CPSC210Checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ui/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ui/Zoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/tests/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/AnimalTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k5YOP4YJrJxcrxLXFyNRChnUVO" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.StallTest">
+    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Zoo" />
+      <module name="D3-MessyZooStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="D3-MessyZooStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AnimalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StallTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="D3-MessyZooStarter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.StallTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StallTest" />
+        <item itemvalue="JUnit.AnimalTest" />
+        <item itemvalue="Application.Zoo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f0e02a4-c107-44a2-8580-6d0b51242ea6" name="Default Changelist" comment="" />
+      <created>1604991886912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604991886912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1604992760193">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604992760193" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604995994435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604995994435" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604995994435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604995994435" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604995994435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604995994435" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604995994435">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604995994435" />
+    <state x="485" y="153" width="566" height="513" key="RefactorJ.ExtractClass" timestamp="1604995789417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="153" width="566" height="513" key="RefactorJ.ExtractClass/0.0.1536.824@0.0.1536.824" timestamp="1604995789417" />
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1604992151615">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="584" y="346" key="ReplaceDuplicatesPrompt/0.0.1536.824@0.0.1536.824" timestamp="1604992151615" />
+    <state x="972" y="216" key="extract.method.dialog" timestamp="1604992548353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="972" y="216" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1604992548353" />
+  </component>
+</project>

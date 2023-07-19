@@ -1,0 +1,65 @@
+public abstract class Dog {
+
+	public static final int HRS_PER_DAY = 24;
+	protected String name;
+	protected List<String> schedule;
+
+	public void Dog(String name) {
+		this.name = name;
+		this.schedule = new ArrayList<>(HRS_PER_DAY);
+		for (int i = 0; i < HRS_PER_DAY; i++) {
+			this.schedule.add(i, "free");
+		}
+	}
+
+	//REQUIRES: a time between 0 and (HRS_PER_DAY - 1)
+	//MODIFIES: this
+	//EFFECTS: adds the thing to add to the schedule,
+	// prints out what has been added and when
+	public void addtoSchedule(String thingToAdd, int time) {
+		System.out.println("Adding " + thingToAdd + " to schedule at " + time);
+		schedule.set(time, thingToAdd);
+	}
+
+	//EFFECTS: prints out the schedule
+	public String printSchedule() {
+		String scheduleStr = name + "'s schedule: " + schedule;
+		System.out.println(scheduleStr);
+		return scheduleStr;
+	}	
+
+	//EFFECTS: prints out greeting things and then waits for a treat
+
+	protected abstract String greet();
+
+ }
+
+public class GermanShepherd extends Dog {
+
+	@Override
+	protected abstract String greet() {
+		System.out.println("Woof Woof!");
+		System.out.println("waiting for a treat!");
+		return "Woof Woof!" + "\n" + "waiting for a treat!";
+	}
+
+	public String defend() {
+	// AS IS
+	}
+
+}
+
+public class Poodle extends Dog {
+
+	@Override
+	protected abstract String greet() {
+		System.out.println("Yap Yap!");
+		System.out.println("waiting for a treat!");
+		return "Yap Yap!" + "\n" + "waiting for a treat!";
+	}
+
+	public String Prance() {
+	// AS IS
+	}
+
+}

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8536afb2-bd76-4a4e-bbbf-41e9483665f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/Oval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleDrawingPlayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleDrawingPlayer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/players/DrawingPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/players/DrawingPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/players/ShapePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/players/ShapePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/DrawingEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/DrawingEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/tools/DeleteTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/tools/DeleteTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/tools/MoveTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/tools/MoveTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/tools/PlayShapeTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/tools/PlayShapeTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/tools/ResizeTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/tools/ResizeTool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/tools/ShapeTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/tools/ShapeTool.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iTPhYnmQrCy6sjX7IffHAwiRMk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleDrawingPlayer-Starter-Clean" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DrawingEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.DrawingEditor" />
+      <module name="SimpleDrawingPlayer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DrawingEditor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8536afb2-bd76-4a4e-bbbf-41e9483665f2" name="Default Changelist" comment="" />
+      <created>1601928729088</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601928729088</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1601930216693">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601930216693" />
+    <state x="352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602101688747">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="352" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1602101688747" />
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1602102707376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602102707376" />
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1602101901476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602101901476" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1602101901476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602101901476" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1602101901475">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602101901475" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1602101901476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602101901476" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1601928768309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601928768309" />
+  </component>
+</project>

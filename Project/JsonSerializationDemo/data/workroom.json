@@ -1,0 +1,25 @@
+{
+    "thingies": [
+        {
+            "name": "urmo",
+            "category": "WOODWORK"
+        },
+        {
+            "name": "qweoir",
+            "category": "METALWORK"
+        },
+        {
+            "name": "cock",
+            "category": "STITCHING"
+        },
+        {
+            "name": "piens",
+            "category": "KNITTING"
+        },
+        {
+            "name": "23",
+            "category": "WOODWORK"
+        }
+    ],
+    "name": "Alex's workroom"
+}

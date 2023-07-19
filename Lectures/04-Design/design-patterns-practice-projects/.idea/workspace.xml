@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="386d5038-b282-4dba-942a-2bee6e30fc94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionHouse/src/model/Auctioneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionHouse/src/model/Bidder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionHouse/src/model/ObserverPattern/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AuctionHouse/src/model/ObserverPattern/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskManager/src/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskManager/src/model/Doable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TaskManager/src/test/TodoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionHouse/AuctionHouse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionHouse/AuctionHouse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AuctionHouse/src/ui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AuctionHouse/src/ui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/TaskManager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/TaskManager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/model/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/src/model/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/model/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/src/model/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaskManager/src/test/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TaskManager/src/test/TaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPod/iPod.iml" beforeDir="false" afterPath="$PROJECT_DIR$/iPod/iPod.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPod/src/model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/iPod/src/model/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iPod/src/model/iPod.java" beforeDir="false" afterPath="$PROJECT_DIR$/iPod/src/model/iPod.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_275/src.zip!/java/util/Random.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_275/src.zip!/java/util/concurrent/ThreadLocalRandom.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1lS14ADqnNU1BUiBoP4DIIAKUw0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Main" />
+      <module name="iPod" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TaskTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.testAddDoable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="testAddDoable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TodoTest.testSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TaskManager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TodoTest" />
+      <option name="METHOD_NAME" value="testSetup" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.TodoTest" />
+        <item itemvalue="JUnit.TodoTest.testAddDoable" />
+        <item itemvalue="JUnit.TodoTest.testSetup" />
+        <item itemvalue="JUnit.TaskTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="386d5038-b282-4dba-942a-2bee6e30fc94" name="Default Changelist" comment="" />
+      <created>1607575484865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607575484865</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
